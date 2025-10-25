@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors — How to play</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <main>
+        <h1>Rock, Paper, Scissors</h1>
+
+        <p>Welcome! This is a simple Rock, Paper, Scissors game you can play against the computer. The game uses browser prompts for your choices and prints results to the console.</p>
+
+        <h2>How to play</h2>
+        <ol>
+            <li>Open this page in your browser.</li>
+            <li>Open the browser console (right-click → Inspect → Console) to see round-by-round results and the final score.</li>
+            <li>When prompted, type <code>Rock</code>, <code>Paper</code>, or <code>Scissors</code>. Case does not matter; leading/trailing spaces are ignored.</li>
+            <li>The computer will choose randomly each round. Results and the running score are printed in the console.</li>
+            <li>After the chosen number of rounds, the final score and winner will be shown in the console.</li>
+        </ol>
+
+        <h3>Start the game</h3>
+        <p>The game may start automatically depending on the version of the script in <code>scripts.js</code>. If it does not, you can start it manually by opening the console and running:</p>
+        <pre><code>playGame(5)</code></pre>
+
+        <p>Replace <code>5</code> with another number to play a different number of rounds, for example <code>playGame(3)</code>.</p>
+    </main>
+
     <script src="scripts.js"></script>
 </body>
 </html>
